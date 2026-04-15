@@ -6,6 +6,15 @@ The published copy of the parquet stores relative record paths only. No machine-
 
 The repository code is released under the MIT License. The derived parquet remains based on PTB-XL metadata, so downstream users must also follow the PTB-XL and PhysioNet attribution and reuse conditions that apply to the source dataset.
 
+Official PTB-XL access point:
+
+- https://physionet.org/content/ptb-xl/1.0.3/
+
+Recommended PTB-XL citations for downstream users:
+
+- PhysioNet resource DOI: `10.13026/kfzx-aw45`
+- Original PTB-XL publication DOI: `10.1038/s41597-020-0495-6`
+
 The same file can be regenerated with:
 
 ```bash

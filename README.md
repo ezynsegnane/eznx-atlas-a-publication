@@ -43,6 +43,31 @@ This repository does not redistribute PTB-XL waveform files. Researchers must ob
 
 The code expects access to the WFDB records and `scp_statements.csv`.
 
+## Accessing PTB-XL
+
+PTB-XL is available from the official PhysioNet project page:
+
+- PhysioNet dataset page: https://physionet.org/content/ptb-xl/1.0.3/
+- Version-specific DOI used by this repository: https://doi.org/10.13026/kfzx-aw45
+
+Download the dataset from PhysioNet, then point this repository to the local directory that contains:
+
+- `ptbxl_database.csv`
+- `scp_statements.csv`
+- `records100/`
+- `records500/`
+
+This repository was prepared against PTB-XL version `1.0.3`.
+
+## Citing PTB-XL
+
+If you use this repository, please also cite the PTB-XL dataset itself. The official PhysioNet page asks users to cite:
+
+- Wagner P, Strodthoff N, Bousseljot RD, Samek W, Schaeffter T. PTB-XL, a large publicly available electrocardiography dataset. PhysioNet, version 1.0.3, 2022. DOI: `10.13026/kfzx-aw45`
+- Wagner P, Strodthoff N, Bousseljot RD, Kreiseler D, Lunze FI, Samek W, Schaeffter T. PTB-XL: A Large Publicly Available ECG Dataset. Scientific Data, 2020. DOI: `10.1038/s41597-020-0495-6`
+
+PTB-XL is distributed by PhysioNet under CC BY 4.0. Users of this repository remain responsible for complying with the upstream PTB-XL and PhysioNet attribution requirements.
+
 ## Rebuilding the derived index
 
 The versioned `data/index_complete.parquet` can be regenerated from raw PTB-XL metadata with:
