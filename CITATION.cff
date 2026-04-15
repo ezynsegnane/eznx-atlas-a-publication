@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata from this file."
+title: "EZNX_ATLAS_A v5"
+type: software
+version: "1.0.0"
+date-released: 2026-04-15
+license: MIT
+authors:
+  - family-names: "SEGNANE"
+    given-names: "Ezyn"
+    affiliation: "FST, Universite de Nouakchott, Nouakchott, Mauritanie"
+    email: "ezynsegnane@gmail.com"
+abstract: "Training, ablation, reproducibility, index-construction, and leakage-audit pipeline for PTB-XL multi-label ECG classification with structured metadata."
+keywords:
+  - electrocardiography
+  - PTB-XL
+  - reproducibility
+  - multimodal learning
+  - scientific software
