@@ -1,6 +1,8 @@
-# EZNX_ATLAS_A v5
+# EZNX_ATLAS_A
 
 This repository contains the training, ablation, and statistical validation pipeline used for multi-label ECG classification experiments on PTB-XL with structured metadata.
+
+The `v5` suffix retained in some script filenames is an internal development identifier used to preserve exact experiment provenance. It does not indicate previously published repository or article versions.
 
 ## Author
 
